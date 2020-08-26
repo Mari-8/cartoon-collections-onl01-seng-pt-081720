@@ -25,12 +25,14 @@ end
 
 
 def find_the_cheese(array)
- cheese = ["cheddar", "gouda", "camembert"]
+ a = "cheddar"
+ b = "gouda" 
+
  use_it = cheese.join(",")
   i = 0
   while i < array.length 
-    if array[i] == "cheddar" || "gouda"
-      array[i]
+    if array[i] == a || b
+      return array[i]
       i += 1 
     else
       return nil 
