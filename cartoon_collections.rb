@@ -32,7 +32,7 @@ def find_the_cheese(array)
   i = 0
   while i < array.length 
     if array[i] == a || b
-      return array[i]
+      puts "hit"
       i += 1 
     else
       return nil 
