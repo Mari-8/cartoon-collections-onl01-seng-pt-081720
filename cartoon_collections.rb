@@ -27,9 +27,8 @@ end
 def find_the_cheese(array)
  a = "cheddar"
  b = "gouda" 
-
- use_it = cheese.join(",")
   i = 0
+ 
   while i < array.length 
     if array[i] == a || b
       puts "hit"
