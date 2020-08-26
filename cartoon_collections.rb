@@ -31,7 +31,7 @@ def find_the_cheese(array)
   i = 0
  
   while i < array.length 
-    if array[i] == a || b || c
+    if array[i] == "cheddar"
       puts "hit"
       i += 1 
     else
