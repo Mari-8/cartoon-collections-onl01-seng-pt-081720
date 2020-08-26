@@ -27,10 +27,11 @@ end
 def find_the_cheese(array)
  a = "cheddar"
  b = "gouda" 
+ c = "camembert"
   i = 0
  
   while i < array.length 
-    if array[i] == a || b
+    if array[i] == a || b || c
       puts "hit"
       i += 1 
     else
