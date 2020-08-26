@@ -32,7 +32,11 @@ def find_the_cheese(array)
  
   while i < array.length 
     if array[i] == "cheddar"
-      puts "hit"
+       "cheddar"
+    elsif array[i] == "gouda"
+      "gouda"
+    elsif array[i] == "camembert"
+      "camembert"
       i += 1 
     else
       return nil 
