@@ -31,6 +31,7 @@ def find_the_cheese(array)
   while i < array.length 
     if array[i] == "cheddar" || "gouda"
       puts "#{array[i]}"
+      i += 1 
     else
       return nil 
     end
